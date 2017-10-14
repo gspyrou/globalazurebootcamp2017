@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestToSpeechDemo", "TestToSpeechDemo\TestToSpeechDemo.csproj", "{13FE3E3B-ECAE-445A-8841-DDE3E7A076DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechDemo", "TextToSpeechDemo\TextToSpeechDemo.csproj", "{13FE3E3B-ECAE-445A-8841-DDE3E7A076DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechRecognitionDemo", "SpeechRecognitionDemo\SpeechRecognitionDemo.csproj", "{170AE830-217A-4175-91D1-DCD525B99221}"
 EndProject

@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace TestToSpeechDemo
+namespace TextToSpeechDemo
 {
     class Program
     {
@@ -63,7 +63,7 @@ namespace TestToSpeechDemo
 
                 PlayAudio(result);
 
-                Thread.Sleep(3000);
+                await Task.Delay(3000);
             }
 
         }
