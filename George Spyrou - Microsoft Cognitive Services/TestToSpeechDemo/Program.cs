@@ -20,7 +20,7 @@ namespace TestToSpeechDemo
         }
         static async Task MainAsync()
         {
-            var token = await GetAuthenticationToken("9541b8b2a18e46aaaf375d0144dc7293");
+            var token = await GetAuthenticationToken("56e87b29c47a45fd94984286a36a9c09");
 
             // Say the fist line of the 'The Odyssey' in English - GB  
             var say = new List<string>();
@@ -96,7 +96,7 @@ namespace TestToSpeechDemo
         {
             HttpClient client = new HttpClient();
 
-            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "9541b8b2a18e46aaaf375d0144dc7293");
+            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", SubscriptionKey);
 
             var response = await client.PostAsync("https://api.cognitive.microsoft.com/sts/v1.0/issueToken", null);
 
